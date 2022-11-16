@@ -1,7 +1,57 @@
 body {
   background-color: #ff8008;
+  text-align: center;
 }
 
 p {
   color: #ffc837;
+}
+
+.container-fluid {
+  
+}
+
+/* Nav */
+
+.introduction {
+  background-image: url("../img/introPic.jpg");
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  
+}
+
+.nav-item {
+ 
+}
+
+.nav-link {
+  color: #ffc837;
+  text-decoration: none;
+  background-color: #ff8008;
+  border: #000;
+  border-width: 5px;
+}
+
+/* Introduction Section */
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+#introPic {
+  
+  width: 65%;
+  height: 65%;
+ 
+}
+
+.introContent {
+  
 }
