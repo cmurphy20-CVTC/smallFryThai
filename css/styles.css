@@ -1,20 +1,36 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+
 body {
   background-color: #ff8008;
   text-align: center;
 }
 
-p {
-  color: #ffc837;
-}
+
 
 .container-fluid {
   
 }
 
 /* Nav */
+nav {
+  
+}
 
 .introduction {
-  background-image: url("../img/introPic.jpg");
+  position: relative;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+.introPic {
+  position: absolute;
+  filter: blur(3px);
+  width: 98vw;
+  height: 98vh;
+  z-index: -2;
 }
 
 .brand {
@@ -22,36 +38,78 @@ p {
   justify-content: center;
 }
 
-.navbar-brand {
-  
-}
-
 .nav-item {
  
 }
 
 .nav-link {
-  color: #ffc837;
+  margin-top: 5%;
+  color: #ff8008;
+  font-size: 35px;
   text-decoration: none;
-  background-color: #ff8008;
-  border: #000;
-  border-width: 5px;
+}
+
+.nav-link:hover {
+  color: #FFA500;
 }
 
 /* Introduction Section */
 
-.intro {
-  display: flex;
-  justify-content: center;
-}
 
-#introPic {
+.introBox {
+ 
+  background-color: rgba(0,0,0, 0.4);
+  margin-top: 8%;
   
-  width: 65%;
-  height: 65%;
+  
+}
+ /* #f4fefd */
+.introContent {
+  line-height: 1.6;
+  text-align: center;
  
 }
 
-.introContent {
+.introContent > h2{
+  color:#fff;
+  display: block;
+  text-align: center;
+ 
+  font-size: 125px;
+}
+
+.introContent > p {
+  
+  color: #f4fefd;
+  font-size: 25px;
+  max-width: 80ch;
+  margin: 0 auto;
+ 
   
 }
+
+.introBtns {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.introBtns > button {
+  background-color: #ff8008;
+  margin: 3%
+}
+
+button > a {
+  
+  color: #f4fefd;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+button > a:hover {
+  background-color: #ffc837;
+  
+  text-decoration: none;
+}
+
