@@ -11,7 +11,7 @@ body {
 
 
 .container-fluid {
-  
+ 
 }
 
 /* Nav */
@@ -61,31 +61,25 @@ nav {
   background-color: rgba(0,0,0, 0.4);
   margin-top: 8%;
   
-  
 }
- /* #f4fefd */
+
 .introContent {
   line-height: 1.6;
   text-align: center;
- 
 }
 
-.introContent > h2{
+.introContent > h2 {
   color:#fff;
   display: block;
   text-align: center;
- 
   font-size: 125px;
 }
 
 .introContent > p {
-  
   color: #f4fefd;
   font-size: 25px;
   max-width: 80ch;
-  margin: 0 auto;
- 
-  
+  margin: 0 auto;  
 }
 
 .introBtns {
@@ -100,6 +94,10 @@ nav {
   margin: 3%
 }
 
+button:hover {
+  background-color: #FFA500;
+}
+
 button > a {
   
   color: #f4fefd;
@@ -107,9 +105,33 @@ button > a {
   font-size: 25px;
 }
 
-button > a:hover {
-  background-color: #ffc837;
-  
+button > a:hover { 
+  color: #000; 
   text-decoration: none;
 }
 
+
+/* Bottom Section */
+
+.bottom {
+  display: block;
+  height: 25%;
+  width: 85%;
+
+  margin-top: 4%;
+  
+}
+
+.sampleMenu {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #ff8008, #ffc837 ) 1;
+  justify-content: center;
+  top: 4%;
+}
+
+.spicyPho {
+  height: 35%;
+  width: 30%;
+  align-items: left;
+}
