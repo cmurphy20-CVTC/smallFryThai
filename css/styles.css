@@ -5,19 +5,13 @@ html {
 
 body {
   background-color: #ff8008;
+  font-family: sans-serif;
   text-align: center;
-}
-
-
-
-.container-fluid {
- 
+  line-height: 2em;
 }
 
 /* Nav */
-nav {
-  
-}
+
 
 .introduction {
   position: relative;
@@ -36,10 +30,6 @@ nav {
 .brand {
   display: flex;
   justify-content: center;
-}
-
-.nav-item {
- 
 }
 
 .nav-link {
@@ -106,32 +96,79 @@ button > a {
 }
 
 button > a:hover { 
-  color: #000; 
+  color: #f4fefd;
   text-decoration: none;
 }
 
 
-/* Bottom Section */
+/* Sample Menu Section */
 
-.bottom {
+.sampleMenuDiv {
   display: block;
-  height: 25%;
-  width: 85%;
-
-  margin-top: 4%;
-  
+  height: 30%;
+  margin-left: 2%;
+  width: 95%; 
 }
 
 .sampleMenu {
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, #ff8008, #ffc837 ) 1;
   justify-content: center;
-  top: 4%;
+  margin-top: 10%;
+  line-height: 2em;
 }
 
-.spicyPho {
-  height: 35%;
-  width: 30%;
-  align-items: left;
+.sampleMenuPic {
+  align-items: right;
+  height: 75%;
+  margin-top: 15%;
+  margin-left: 2%;
+  width: 95%;
 }
+
+.sampleMenuDesc {
+  font-size: 20px;
+  margin-top: 2%;
+  
+}
+
+#sampleTitle {
+  text-align: center;
+  color: #000;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  height: 5%;
+  
+  line-height: 2em;
+  margin-top: 2%;
+  
+}
+
+.social-icon {
+  color: #000;
+  margin: 20px;
+
+  
+}
+
+/* Animation */
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  
+}
+
+
