@@ -12,18 +12,26 @@ body {
 
 /* Nav */
 
+nav {
+  border-bottom: #000 1px solid;
+  
+  background-color: #fff;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
 
 .introduction {
   position: relative;
-  /* width: 100vw;
-  height: 100vh; */
 }
 
 .titlePic {
   position: absolute;
   filter: blur(3px);
   width: 98vw;
-  height: 98vh;
+  height: 75vh;
   z-index: -2;
 }
 
@@ -141,11 +149,25 @@ button > a:hover {
   margin-bottom: .5%;
 }
 
+
 /* Main Menu */
 
 .choiceOfMeat {
   display: block;
 }
+
+#menuPic {
+  filter:blur(0);
+  height: 65vh;
+  margin-bottom: 3%;
+  position: absolute;
+}
+
+#fullMenu {
+  position: relative;
+  top: 375px;
+}
+
 
 /* Footer */
 
