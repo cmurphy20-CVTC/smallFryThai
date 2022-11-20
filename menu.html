@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -13,6 +13,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+
+
     <title>Small Fry Thai</title>
     
   </head>
@@ -22,7 +24,7 @@
     <section class="introduction">
 
       <div >
-        <img class="introPic" src="img/introPic.jpg" alt="Cooking Thai Dishes">
+        <img class="titlePic" src="img/pexels-chan-walrus-958545.jpg" alt="Many Thai Dishes">
       </div>
       
     <nav>
@@ -48,23 +50,9 @@
     <div class=" introBox">
         
       <div class="introContent">
-        <h2>Small Fry Thai</h2>
-        <br>
-        <br>
-        <p>Voted best Thai food truck by Murphy Rated Us ©, Small Fry Thai serves traditional dishes 
-          with a modern twist. Locally owned and operated, catch us at our next stop in the Chippewa Valley!
-        </p>
+        <h2>Full Menu</h2>
+  
       </div> 
-
-      <div class="introBtns">
-
-        <button class="btn btn-outline"><a href="/menu.html">Full Menu</a></button>
-
-        <button class="btn btn-outline"><a href="/schedule.html">Schedule</a></button>
-
-        <button class="btn btn-outline"><a href="/about_us.html">About Us</a></button>
-
-      </div>
 
     </div>
 
@@ -72,19 +60,47 @@
 
 </section>
 
-<section class="sampleMenuDiv">
+<section class="sampleMenuDiv ">
 
   <div class="row sampleMenu">
     
-    <div class="col-lg-4" >
-      <img class="sampleMenuPic" src="img/pexels-pixabay-262897.jpg" alt="Bowl of Spicy Pho">
+    <div class="col-lg-12 sampleMenuDesc">
+
+      <h3>Appetizers</h3>
+      
+      <ul class="menuItems">
+        
+        <li>
+          <strong>Crab Rangoons (x4)</strong>
+        </li>
+        <li>
+          <strong>Egg Rolls (x3)</strong>
+        </li>
+        <li>
+          <strong>Potstickers (x6)</strong>
+        </li>
+      </ul>
+      
     </div>
-    <div class="col-lg-8 sampleMenuDesc">
-      <div id="sampleTitle">
-        <em >Authentic and classic Thai dishes. We offer more options,<a id="sampleTitle" href="menu"> view full menu here.</a> </em>
-        <h2 id="sampleTitle">Sample of Menu</h2>
-      </div>
-      <ul>
+  </div>
+
+  <div class="row sampleMenu">
+    
+    <div class="col-lg-12 sampleMenuDesc">
+
+      <h3>Main Dishes</h3>
+
+      <strong>Choice of Meat</strong>
+
+      <ul class="choiceOfMeat">
+        <li>Chicken / Vegetable $9.95</li>
+        <li>Beef $10.95</li>
+        <li>Shrimp $12.95</li>
+        <li>Chicken + Shrimp $13.95</li>
+      </ul>
+      
+      <ul class="menuItems">
+        
         <li>
           <strong>Pad Thai</strong>
           <p>Stir fried rice noodles, eggs, bean sprouts, 
@@ -115,17 +131,67 @@
             carrots, onions, bell peppers in homemade brown sauce topped with peanuts.
           </p>
         </li>
+        <li>
+          <strong>Pad See Ew</strong>
+          <p>Stir fried white rice and egg, fresh broccoli, carrots in homemade brown sauce
+          </p>
+        </li>
+        <li>
+          <strong>Basil Stir-Fried</strong>
+          <p>Choice of veggies, chicken or shrimp stir fried with frsh baisl leaves,  
+            onions, bell peppers in homemade brown sauce.
+          </p>
+        </li>
+        <li>
+          <strong>Sweet and Sour</strong>
+          <p>broccoli, cauliflower, peapod, oil, sauce</p>
+        </li>
+        <li>
+          <strong>Orange</strong>
+          <p>red bell pepper, green bell pepper, pineapple, cauliflower, orange, sauce</p>
+        </li>
+      </ul>      
+    </div>
+  </div>
+
+  <div class="row sampleMenu">
+    
+    <div class="col-lg-12 sampleMenuDesc">
+
+      <h3>Drinks and Extras</h3>
+      
+      <ul class="menuItems">
+        
+        <li>
+          <strong>Vegetable + $1</strong>
+        </li>
+        <li>
+          <strong>Egg +$1</strong>
+        </li>
+        <li>
+          <strong>Chicken / Beef / Shrimp+ $2</strong>
+        </li>
+        <li>
+          <strong>Rice +$2</strong>
+        </li>
+        <li>
+          <strong>Water / Soda</strong>
+        </li>
+        <li>
+          <strong>Thai Tea / Bobba Tea</strong>
+        </li>
       </ul>
       
     </div>
   </div>
-
 </section>
 
   <!-- Footer -->
 
-  <footer class="footer">
+  <footer class="footer ">
+    <img class="brand" src="img/Small Fry Thai.png" alt="">
     <div class="container-fluid">
+      
       <a href=""><i class="social-icon fab fa-facebook-f fa-2x"></i></a>
       <a href=""><i class="social-icon fab fa-twitter fa-2x"></i></a>
       <a href=""><i class="social-icon fab fa-instagram fa-2x"></i></a>
@@ -135,14 +201,18 @@
     
   </footer>
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
- 
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+
   </body>
 </html>

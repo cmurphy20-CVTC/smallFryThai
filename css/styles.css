@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #ff8008;
+  
   font-family: sans-serif;
   text-align: center;
   line-height: 2em;
@@ -19,7 +19,7 @@ body {
   height: 100vh; */
 }
 
-.introPic {
+.titlePic {
   position: absolute;
   filter: blur(3px);
   width: 98vw;
@@ -28,8 +28,11 @@ body {
 }
 
 .brand {
-  display: flex;
-  justify-content: center;
+  border: #000 2px solid;
+  box-shadow: 3px 2px;
+  height: 15%;
+  margin-bottom: 3%;
+  width: 15%;
 }
 
 .nav-link {
@@ -45,12 +48,9 @@ body {
 
 /* Introduction Section */
 
-
 .introBox {
- 
   background-color: rgba(0,0,0, 0.4);
   margin-top: 8%;
-  
 }
 
 .introContent {
@@ -135,6 +135,18 @@ button > a:hover {
   color: #000;
 }
 
+.menuItems > li:hover {
+  border-bottom: 2px solid;
+  margin-left: .5%;
+  margin-bottom: .5%;
+}
+
+/* Main Menu */
+
+.choiceOfMeat {
+  display: block;
+}
+
 /* Footer */
 
 .footer {
@@ -153,21 +165,9 @@ button > a:hover {
   
 }
 
-/* Animation */
 
 
-  .hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
-  }
-  
-  .show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-  }
+
   
 
 
