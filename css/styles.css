@@ -140,9 +140,13 @@ button > a:hover {
   text-align: center;
 }
 
+.menuItems {
+  margin-bottom: 1.5%;
+}
+
 .menuItems > li:hover {
   border-bottom: 2px solid;
-  margin-left: .5%;
+  margin-left: 2%;
   margin-bottom: .5%;
 }
 
@@ -181,8 +185,12 @@ button > a:hover {
   line-height: 2em;
 }
 
-.fullMenuDesc {
+.appMenuDesc {
   text-align: center;
+}
+
+#mainTitle {
+  text-align: left;
 }
 
 .choiceOfMeat {
@@ -196,11 +204,9 @@ button > a:hover {
   position: absolute;
 }
 
-#fullMenu {
-  position: relative;
-  top: 375px;
+.fullMenuDescLeft {
+  text-align: left;
 }
-
 
 /* Footer */
 
