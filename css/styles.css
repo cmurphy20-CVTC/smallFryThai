@@ -1,6 +1,7 @@
 html {
   min-height: 100%;
   min-width: 100%;
+  overflow: unset;
 }
 
 body {
@@ -10,37 +11,21 @@ body {
   line-height: 2em;
 }
 
+.container-fluid {
+  padding: 0px !important;
+}
+
 /* Nav */
 
-nav {
-  border-bottom: #000 1px solid;
+.navbar {
+  border-bottom: #1a1c22 1px solid;
+  background-color: #1a1c22;
+  margin-top: .25%;
   
-  background-color: #fff;
-  margin-bottom: 0;
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 1;
-}
-
-.introduction {
-  position: relative;
-}
-
-.titlePic {
-  position: absolute;
-  filter: blur(3px);
-  width: 98vw;
-  height: 75vh;
-  z-index: -2;
-}
-
-.brand {
-  border: #000 2px solid;
-  box-shadow: 3px 2px;
-  height: 15%;
-  margin-bottom: 3%;
-  width: 15%;
+  z-index: 2;
 }
 
 .nav-link {
@@ -51,14 +36,27 @@ nav {
 }
 
 .nav-link:hover {
-  color: #FFA500;
+  color: #f4fefd;
 }
 
 /* Introduction Section */
 
+.introduction {
+  width: 100%;
+  top: 0;
+  position: relative;
+}
+
+.titlePic {
+  filter: blur(3px);
+  width: 98vw;
+  height: 80vh;
+  position: absolute;
+  z-index: -2;
+}
+
 .introBox {
   background-color: rgba(0,0,0, 0.4);
-  margin-top: 8%;
 }
 
 .introContent {
@@ -69,8 +67,9 @@ nav {
 .introContent > h2 {
   color:#fff;
   display: block;
-  text-align: center;
   font-size: 125px;
+  padding-top: 10%;
+  text-align: center;
 }
 
 .introContent > p {
@@ -84,7 +83,6 @@ nav {
   align-items: center;
   display: flex;
   justify-content: center;
-  
 }
 
 .introBtns > button {
@@ -97,7 +95,6 @@ button:hover {
 }
 
 button > a {
-  
   color: #f4fefd;
   text-decoration: none;
   font-size: 25px;
@@ -108,19 +105,19 @@ button > a:hover {
   text-decoration: none;
 }
 
-
 /* Sample Menu Section */
 
 .sampleMenuDiv {
   display: block;
   height: 30%;
   margin-left: 2%;
+  margin-bottom: 10%;
   width: 95%; 
 }
 
 .sampleMenu {
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 2.5%;
   line-height: 2em;
 }
 
@@ -135,12 +132,12 @@ button > a:hover {
 .sampleMenuDesc {
   font-size: 20px;
   margin-top: 2%;
-  
 }
 
 #sampleTitle {
+  color: #1a1c22;
+  margin-top: 2%;
   text-align: center;
-  color: #000;
 }
 
 .menuItems > li:hover {
@@ -150,7 +147,43 @@ button > a:hover {
 }
 
 
-/* Main Menu */
+/* Full Menu */
+
+#apps {
+  font-size: 22px;
+  line-height: 2em;
+  list-style: none;
+  text-align: left;
+}
+
+#menuTitle {
+  margin-bottom: 2%;
+}
+
+.appImgDiv {
+  float: right;
+}
+
+#appImg{
+  /* border: #ff8008 2px solid; */
+  box-shadow: #ff8008 8px 5px;
+  height: 50vh;
+  width: 35vw;
+}
+
+#fullMenuTitle {
+  font-size: 100px;
+  margin-bottom: 2%;
+}
+
+.fullMenu {
+  margin-top: 10%;
+  line-height: 2em;
+}
+
+.fullMenuDesc {
+  text-align: center;
+}
 
 .choiceOfMeat {
   display: block;
@@ -170,6 +203,14 @@ button > a:hover {
 
 
 /* Footer */
+
+.brand {
+  border: #000 2px solid;
+  box-shadow: 3px 2px;
+  height: 15%;
+  margin-bottom: 3%;
+  width: 15%;
+}
 
 .footer {
   text-align: center;
