@@ -24,7 +24,6 @@ body {
   
   position: fixed;
   top: 0;
-  width: 100vw;
   z-index: 2;
 }
 
@@ -39,12 +38,18 @@ body {
   color: #f4fefd;
 }
 
+.navbar-toggler {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  stroke: #ff8008;
+}
+
 /* Introduction Section */
 
 .introduction {
-  width: 100%;
-  top: 0;
+  margin-bottom: 5%;
   position: relative;
+  top: 0;
+  width: 100%;
 }
 
 .titlePic {
@@ -111,7 +116,7 @@ button > a:hover {
   display: block;
   height: 30%;
   margin-left: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   width: 95%; 
 }
 
@@ -181,7 +186,7 @@ button > a:hover {
 }
 
 .fullMenu {
-  margin-top: 10%;
+  margin-top: 35%;
   line-height: 2em;
 }
 
@@ -200,8 +205,7 @@ button > a:hover {
 #menuPic {
   filter:blur(0);
   height: 65vh;
-  margin-bottom: 3%;
-  position: absolute;
+  margin-bottom: 15%;
 }
 
 .fullMenuDescLeft {
@@ -213,7 +217,7 @@ button > a:hover {
 .brand {
   border: #000 2px solid;
   box-shadow: 3px 2px;
-  height: 15%;
+  height: 10%;
   margin-bottom: 3%;
   width: 15%;
 }
@@ -227,11 +231,23 @@ button > a:hover {
   
 }
 
+/* Call to action */
+
+.cta {
+  background-color: #ff8008;
+  height: 60vh;
+  margin-bottom: 5%;
+}
+
+.cta > h1 {
+  margin-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 .social-icon {
   color: #000;
   margin: 20px;
-
-  
 }
 
 
