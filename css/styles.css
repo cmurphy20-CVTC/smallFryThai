@@ -58,7 +58,7 @@ body {
   height: 80vh;
   
   position: absolute;
-  width: 95vw;
+  width: 99vw;
   z-index: -2;
 }
 
@@ -160,6 +160,10 @@ button > a:hover {
 
 /* Full Menu */
 
+#price {
+ text-align: right;
+}
+
 #apps {
   font-size: 22px;
   line-height: 2em;
@@ -188,6 +192,7 @@ button > a:hover {
 }
 
 .fullMenu {
+  height: 75vh;
   line-height: 2em;
 }
 
@@ -221,6 +226,12 @@ button > a:hover {
   text-align: left;
 }
 
+#sides {
+  display: block;
+  height: 65vh;
+  margin-bottom: 2%;
+}
+
 /* Footer */
 
 .brand {
@@ -228,16 +239,22 @@ button > a:hover {
   box-shadow: 3px 2px;
   height: 10%;
   margin-bottom: 3%;
+ 
   width: 15%;
 }
 
 .footer {
   text-align: center;
-  height: 5%;
+  height: 15%;
   
   line-height: 2em;
   margin-top: 2%;
   
+}
+
+.social-icon {
+  color: #000;
+  margin: 20px;
 }
 
 /* Call to action */
@@ -254,10 +271,7 @@ button > a:hover {
 }
 
 
-.social-icon {
-  color: #000;
-  margin: 20px;
-}
+
 
 
 
