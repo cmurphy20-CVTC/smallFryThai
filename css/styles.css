@@ -54,9 +54,11 @@ body {
 
 .titlePic {
   filter: blur(3px);
-  width: 98vw;
+  
   height: 80vh;
+  
   position: absolute;
+  width: 95vw;
   z-index: -2;
 }
 
@@ -186,7 +188,6 @@ button > a:hover {
 }
 
 .fullMenu {
-  margin-top: 35%;
   line-height: 2em;
 }
 
@@ -194,18 +195,26 @@ button > a:hover {
   text-align: center;
 }
 
+
+
 #mainTitle {
-  text-align: left;
+  text-align: center;
 }
 
 .choiceOfMeat {
   display: block;
+  font-size: 22px;
+  line-height: 2em;
 }
 
 #menuPic {
   filter:blur(0);
   height: 65vh;
-  margin-bottom: 15%;
+  margin-bottom: .5%;
+  position: relative;
+  right: 0px;
+  width: 100vw;
+  z-index: 0;
 }
 
 .fullMenuDescLeft {
