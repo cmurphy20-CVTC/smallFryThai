@@ -253,8 +253,8 @@ button > a:hover {
 /* Call to action */
 
 .cta {
-  background-color: #D3D3D3;
-  height: 60vh;
+  background-color: #ededed;
+  height: auto;
   line-height: 2em;
   margin-bottom: 5%;
   padding-top: 1.25em;
@@ -275,9 +275,8 @@ button > a:hover {
 }
 
 
-
 .cta > h1 {
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -287,6 +286,32 @@ button > a:hover {
 #schedule {
   background-color: #ff8008;
   height: auto;
+}
+
+/* FAQ */
+
+.faq {
+  background-color: #ededed;
+  height: 75vh;
+  line-height: 2em;
+  margin-bottom: 2.5%;
+  padding-top: 1%;
+  
+}
+
+#faqTitle {
+  text-align: center;
+}
+
+#faqImgDiv  {
+  float: left;
+}
+
+#faqImg {
+  box-shadow: #ff8008 8px 5px;
+  float: left;
+  height: 40vh;
+  width: 35vw;
 }
 
 
