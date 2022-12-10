@@ -294,6 +294,9 @@ button > a:hover {
   font-size: 2em;
 }
 
+#monthTitle {
+  font-size: .75em;
+}
 #firstHalf {
   margin-right: 10%;
 }
