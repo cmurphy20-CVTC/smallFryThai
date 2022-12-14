@@ -908,55 +908,53 @@
 
       <section>
 
-        <div class="container-fluid contactSection">
+        <div class=" contactSection">
 
           <div class="row form">
-            <div class="col-lg-6">
+            <div class="col-lg-5 cFormLeft">
+              <div class="row">
+                <form name="contact" method="POST" data-netlify="true">
+                  <p>
+                    <label class="formLabel">Your Name: <input class="formInput" type="text" name="name"/></label>
+                  </p>
+              </div>
 
-              <form name="contact" method="POST" data-netlify="true">
-                <p>
-                  <label>Your Name: <input type="text" name="name" /></label>
+                <div class="row">
+                  <p>
+                    <label class="formLabel">Your Email: <input class="formInput" type="email" name="email" /></label>
+                  </p>
+                </div>
+
+                <div class="row">
+                  <p>
+                    <label class="formLabel">Message: <textarea name="message"></textarea></label>
+                  </p>
+                </div>
+
+                <div class="row">
+                    <p>
+                      <button class="btn btn-warning" id="contactBtn" type="submit">Submit</button>
+                    </p>
+                  </form>
+                </div>
+
+            </div> <!--end left half form-->
+
+            <div class="col-lg-5 cFormRight">
+              <div class="row">
+                <h2>Application for Catering</h2>
+              </div>
+              
+              <div class="row">
+                <p id="publicCaterP">
+                  Please leave some contact information about yourself, including a way we can get back into contact with you. 
+                  Please also include some details about your event.
                 </p>
-            </div>
+              </div>
 
-            <div class="col-lg-6">
-              <h2>Application for Catering</h2>
-
-            </div>
-          </div>
-
-          <div class="row form">
-
-            <div class="col-lg-6">
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-            </div>
-          </div>
-
-          <div class="row form">
-            <div class="col-lg-6">
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <p id="publicCaterP">
-                Please leave some contact information about yourself, including a way we can get back into contact with you. 
-                Please also include some details about your event.
-              </p>
-            </div>
-
-          </div>
-
-         
-          
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-        
-      </div>
+            </div><!--end right half form-->
+    
+        </div>      <!-- end contact section-->
 
 
       </section>
