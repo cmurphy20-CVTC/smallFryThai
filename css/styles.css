@@ -369,18 +369,14 @@ button > a:hover {
   margin: 0 auto;
   margin-top: 8%;
   margin-bottom: 8%;
+  padding: 0, 12px;
   width: 95%;
-}
-
-
-.form {
-  text-align: center;
 }
 
 #publicCaterP {
   color: #f4fefd;
-  font-size: 25px;
-  line-height: 2em;
+  font-size: 1.5em;
+  line-height: 2.5em;
   text-align: left;
 }
 .cFormLeft {
@@ -398,20 +394,23 @@ button > a:hover {
  input[type="text"],
  input[type="email"],
  textarea {
+ 
   color: #1a1c22;
   font-size: 15px;
+  width: 100%;
 }
 
 #contactBtn {
   background-color: #1a1c22;
   color: #f4fefd;
+  font-size: 2em;
   font-weight: bold;
   margin-top: 3%;
   
 }
 
 #contactBtn:hover {
-  background-color: #FFA500;
+  background-color: #FF5733;
 }
 
 .cFormRight {
@@ -419,6 +418,25 @@ button > a:hover {
   margin-top: 4%;
   margin-bottom: 4%;
   text-align: center;
+}
+
+#workP {
+  background-color: #FF5733;
+}
+
+/* About Us */
+
+.about {
+  background-color: #ff8008;
+  font-size: 15px;
+  height: auto;
+  line-height: 3em;
+  margin-bottom: 2.5%;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  text-align: left;
+  width: 100%;
 }
 /* Footer */
 
