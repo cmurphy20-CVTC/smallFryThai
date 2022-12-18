@@ -1,24 +1,41 @@
-$(document).ready(function() {
+$(window).on('load', function(){
 
-  console.log("confirm");
+  var $title = $('.introTitle');
+  var $content = $('.introP');
+  var $btns = $('.introBtns');
+
+  $(document).ready(function() {
+    
+   console.log($title);
+
+    $title.css({
+      opacity: 0,
+      bottom: "50px"
+    }).animate({
+      opacity: 1,
+      bottom: "0px"
+    }, 3000);
+
+    $content.css({
+      opacity: 0,
+      bottom: "50px"
+    }).animate({
+      opacity: 1,
+      bottom: "0px"
+    }, 3250);
+
+    $btns.css({
+      opacity: 0,
+      bottom: "50px"
+    }).animate({
+      opacity: 1,
+      bottom: "0px"
+    }, 2750);
+
+  });
+});
   
-  let $title = $('.introTitle');
-  let $content = $('.introP');
-
-  $title.css({
-    display: "hidden",
-    bottom: "35px"
-  });
-
-  $content.css({
-    display: "hidden",
-    bottom: "35px"
-  });
-
-  $('document').ready(function() {
-
-  })
-})
+ 
 
   
 
