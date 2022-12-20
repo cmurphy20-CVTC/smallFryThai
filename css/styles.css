@@ -47,18 +47,15 @@ body {
 /* Introduction Section */
 
 .introduction {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   position: relative;
   top: 0;
   width: 100%;
 }
 
-
-
 .titlePic {
   filter: blur(3px);
   height: 80vh;
-  
   position: absolute;
   width: 99vw;
   z-index: -2;
@@ -67,7 +64,7 @@ body {
 .introBox {
   align-items: center;
   background-color: rgba(0,0,0, 0.4);
-  height: 65vh;
+  height: 75vh;
   width: 100%;
 }
 
@@ -462,9 +459,47 @@ button > a:hover {
 }
 
 
+/* Media Queries */
 
+@media (max-width: 576px) {
 
+  p {
+    font-size: .75em;
+  }
+
+  .titlePic {
+    height: 35vh;
+  }
+
+  #introTitle {
+    font-size: 3em;
+  }
+
+  #introP {
+    font-size: 1em;
+  }
+
+  .introBox {
+    height: 35vh;
+  }
   
+  .introBtns {
+    height: 10vh;
+  }
+
+  .btn > a {
+    font-size: 1em;
+  }
+
+  .sampleMenuDiv{
+    font-size: 1em;
+  }
+
+  .brand {
+    height: 40%;
+    width: 40%;
+  }
+}
 
 
 
