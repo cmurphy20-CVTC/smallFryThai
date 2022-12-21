@@ -426,7 +426,7 @@ button > a:hover {
 
 .about {
   background-color: #ff8008;
-  font-size: 15px;
+  font-size: 1em;
   height: auto;
   line-height: 3em;
   margin-bottom: 2.5%;
@@ -435,6 +435,11 @@ button > a:hover {
   padding-bottom: 1.5%;
   text-align: left;
   width: 100%;
+}
+
+#aboutImg {
+  height: 50vh;
+  width: 35vw;
 }
 /* Footer */
 
@@ -536,6 +541,56 @@ button > a:hover {
     height: auto;
     font-size: .75em;
   }
+
+  /* schedule.html */
+
+  .faq {
+    font-size: .75em;
+    text-align: center;
+  }
+
+  #faqImg {
+    height: 35vh;
+    width: 35vw;
+  }
+
+  .faqContent {
+    margin-left: 15%;
+    text-align: center;
+    width: 100vw;
+  }
+  
+  .faqP {
+    width: 75vw;
+  }
+
+  .contactSection {
+    align-items: right;
+  }
+
+  input[type="text"],
+ input[type="email"],
+ textarea {
+ 
+  color: #1a1c22;
+  font-size: 15px;
+  
+  width: 50vw;
+}
+
+
+
+  /* about.html */
+
+  .about {
+    font-size: 1em;
+  }
+
+  #aboutImg {
+    height: 35vh;
+    width: 50vw;
+  }
+
 }
 
 
