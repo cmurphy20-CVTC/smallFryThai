@@ -463,6 +463,8 @@ button > a:hover {
 
 @media (max-width: 576px) {
 
+  /* index.html */
+
   p {
     font-size: .75em;
   }
@@ -498,6 +500,41 @@ button > a:hover {
   .brand {
     height: 40%;
     width: 40%;
+  }
+
+  /* menu.html */
+
+  #menuPic {
+    height: 35vh;
+  }
+
+  .fullMenu {
+    font-size: .65em;
+  }
+
+  #appImg {
+    height: 45vh;
+    width: 50vw;
+  }
+
+  #mainTitle {
+    font-size: 1.25em;
+  }
+
+  #meats {
+    font-size: 1em;
+  }
+  .sampleMenu {
+    font-size: .7em;
+  }
+
+  .menuItems {
+    font-size: 1em;
+  }
+
+  #sides {
+    height: auto;
+    font-size: .75em;
   }
 }
 
