@@ -568,16 +568,21 @@ button > a:hover {
     align-items: right;
   }
 
-  input[type="text"],
+ input[type="text"],
  input[type="email"],
  textarea {
- 
+  
   color: #1a1c22;
   font-size: 15px;
-  
+ 
   width: 50vw;
 }
 
+  .formLabel {
+    display: inline-block;
+   width: 240px;
+   
+  }
 
 
   /* about.html */
