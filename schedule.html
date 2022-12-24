@@ -904,23 +904,189 @@
       <!-- Contact for catering form -->
 
       <section>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        
+        <div class="contactSection">
+
+          <div class="row cForm">
+            <div class="col-lg-6 cFormLeft">
+              <div class=" ">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                  <div class="form-group">
+                    <label class="formLabel">Your Name: 
+                      <input class="formInput form-control" type="text" name="name" 
+                      placeholder="Enter your name." required="true"/>
+                    </label>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                
+                  <label class="formLabel">Name of Event: 
+                    <input class="formInput form-control" type="text" name="nameEvent" placeholder="Enter name of event."/>
+                  </label>
+                
+              </div>
+              
+              <div class=" form-group">
+                
+                  <label class="formLabel">Date: 
+                    <input class="formInput form-control" type="text" name="date" placeholder="Enter date(s) of event." required="true"/>
+                  </label>
+                
+              </div>
+
+              <div class="form-group">
+                
+                  <label class="formLabel"> Time: 
+                    <input class="formInput form-control" type="text" name="time" placeholder="Enter timeframe of event." required="true"/>
+                  </label>
+                
+              </div>
+
+                <div class="form-group">
+                  
+                    <label class="formLabel">Address of Event: 
+                      <input class="formInput form-control" type="text" name="eventAddr" placeholder="Enter the address of the event." required="true"/>
+                    </label>
+                  
+                </div>
+
+                <div class="form-group">
+                  
+                    <label class="formLabel">Your Email: 
+                      <input class="formInput form-control" type="email" name="email" placeholder="Enter your email" required="true"/>
+                    </label>
+                  
+                </div>
+
+                <div class=" form-group">
+                  
+                    <label class="formLabel">Message: 
+                      <textarea class="formInput form-control" name="message" placeholder="Please give details of the events." 
+                      rows="10" cols="60" required="true"></textarea>
+                    </label>
+                  
+                </div>
+
+                <div class="form-group">
+                    <p>
+                      <button class="btn btn-warning" id="contactBtn" type="submit">Submit</button>
+                    </p>
+                  </form>
+                </div>
+
+            </div> 
+
+            <div class="col-sm-5 cFormRight">
+              <div class="row">
+                <h2>Application for Public Catering</h2>
+              </div>
+              
+              <div class="row">
+                <p id="publicCaterP">
+                  Please leave some contact information about yourself, including a way we can get back into contact with you. 
+                  Please also include some details about your event.
+                </p>
+              </div>
+
+            </div>
+    
+        </div>   
+
+      </section>
+
+      <section>
       
+      </section>
+
+      <section>
+        
+        <div class="contactSection">
+
+          <div class="row cForm">
+            <div class="col-lg-6 cFormLeft">
+              <div class=" ">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                  <div class="form-group">
+                    <label class="formLabel">Your Name: 
+                      <input class="formInput form-control" type="text" name="name" 
+                      placeholder="Enter your name." required="true"/>
+                    </label>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                
+                  <label class="formLabel">Name of Business: 
+                    <input class="formInput form-control" type="text" name="businessName" placeholder="Enter name of business." required="true"/>
+                  </label>
+                
+              </div>
+              
+              <div class=" form-group">
+                
+                <label class="formLabel">Date: 
+                  <input class="formInput form-control" type="text" name="date" placeholder="Enter date(s) of event." required="true"/>
+                </label>
+              
+            </div>
+
+            <div class="form-group">
+              
+                <label class="formLabel"> Time: 
+                  <input class="formInput form-control" type="text" name="time" placeholder="Enter timeframe." required="true"/>
+                </label>
+              
+            </div>
+
+                <div class="form-group">
+                  
+                    <label class="formLabel">Address of Business: 
+                      <input class="formInput form-control" type="text" name="businessAddr" placeholder="Enter the address." required="true"/>
+                    </label>
+                  
+                </div>
+
+                <div class="form-group">
+                  
+                    <label class="formLabel">Your Email: 
+                      <input class="formInput form-control" type="email" name="email" placeholder="Enter your email" required="true"/>
+                    </label>
+                  
+                </div>
+
+                <div class=" form-group">
+                  
+                    <label class="formLabel">Message: 
+                      <textarea class="formInput form-control" name="message" placeholder="Please give details of number of people." 
+                      rows="10" cols="60" required="true"></textarea>
+                    </label>
+                  
+                </div>
+
+                <div class="form-group">
+                    <p>
+                      <button class="btn btn-warning" id="contactBtn" type="submit">Submit</button>
+                    </p>
+                  </form>
+                </div>
+
+            </div> 
+
+            <div class="col-sm-5 cFormRight">
+              <div class="row">
+                <h2>Catering a Workplace</h2>
+              </div>
+              
+              <div class="row">
+                <p id="publicCaterP">
+                  Max of 1.5 hours and a $500 hourly rate or the difference.
+                </p>
+              </div>
+
+            </div>
+    
+        </div>   
 
       </section>
 
