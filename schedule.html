@@ -866,7 +866,6 @@
       <section>
         <div class="faq">
 
-          
             <div id="faqTitle" class="col">
               <h2>Frequenty Asked Questions</h2>
             </div>
@@ -900,72 +899,175 @@
 
       </div>
 
-     
-
       </section>
 
       <!-- Contact for catering form -->
 
       <section>
-
-        <div class="container-fluid contactSection">
-
-          <div class="row publicCater">
-
-            <div class="col-lg-6">
-
-              <form name="contact" method="POST" data-netlify="true">
-
-                <div class="row">
-                  <p>
-                    <label>Your Name: <input type="text" name="name" /></label>
-                  </p>
-                </div>
-
-            <div class="row">
-
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-
-            </div>
-
-            <div class="row form">
-            
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-            
-            </div>
-
-          </div>
+        
+        <div class="contactSection">
 
           <div class="row">
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </div>
-            
-          </form>
+            <div class="col-lg-12 cFormLeft">
+              <div class=" ">
+                <h2 id="publicCaterH2">Application for Public Catering</h2>
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                  <div class="form-group">
+                    <label class="formLabel">Your Name: 
+                      <input class="formInput form-control" type="text" name="name" 
+                      placeholder="Enter your name." required="true"/>
+                    </label>
+                  </div>
+              </div>
 
-        </div>
+              <div class="form-group">
+                
+                  <label class="formLabel">Name of Event: 
+                    <input class="formInput form-control" type="text" name="nameEvent" placeholder="Enter name of event."/>
+                  </label>
+                
+              </div>
+              
+              <div class=" form-group">
+                
+                  <label class="formLabel">Date: 
+                    <input class="formInput form-control" type="text" name="date" placeholder="Enter date(s) of event." required="true"/>
+                  </label>
+                
+              </div>
 
-          <div class="col-lg-6">
+              <div class="form-group">
+                
+                  <label class="formLabel"> Time: 
+                    <input class="formInput form-control" type="text" name="time" placeholder="Enter timeframe of event." required="true"/>
+                  </label>
+                
+              </div>
 
+                <div class="form-group">
+                  
+                    <label class="formLabel">Address of Event: 
+                      <input class="formInput form-control" type="text" name="eventAddr" placeholder="Enter the address of the event." required="true"/>
+                    </label>
+                  
+                </div>
 
-            <h2>Application for Catering</h2>
+                <div class="form-group">
+                  
+                    <label class="formLabel">Your Email: 
+                      <input class="formInput form-control" type="email" name="email" placeholder="Enter your email" required="true"/>
+                    </label>
+                  
+                </div>
 
-            <p id="publicCaterP">
-              Please leave some contact information about yourself, including a way we can get back into contact with you. 
-              Please also include some details about your event.
-            </p>
+                <div class=" form-group">
+                  
+                    <label id="formMessage" class="formLabel">Message: 
+                      <textarea class="formInput form-control" name="message" placeholder="Please give details of the events." 
+                      rows="10" cols="60" required="true"></textarea>
+                    </label>
+                  
+                </div>
 
-          </div>
+                <div class="form-group">
+                    <p>
+                      <button class="btn btn-warning" id="contactBtn" type="submit">Submit</button>
+                    </p>
+                  </form>
+                </div>
 
-        </div>
+            </div> 
+    
+        </div>   
 
       </section>
 
+      <section>
+      
+      </section>
+
+      <section>
+        
+        <div class="contactSection">
+
+          <div class="cForm">
+            <div class="col-lg-12 cFormLeft">
+              <div class="">
+                <h2 id="publicCaterH2">Catering a Workplace</h2>
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                  <div class="form-group">
+                    <label class="formLabel">Your Name: 
+                      <input class="formInput form-control" type="text" name="name" 
+                      placeholder="Enter your name." required="true"/>
+                    </label>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                
+                  <label class="formLabel">Name of Business: 
+                    <input class="formInput form-control" type="text" name="businessName" placeholder="Enter name of business." required="true"/>
+                  </label>
+                
+              </div>
+              
+              <div class=" form-group">
+                
+                <label class="formLabel">Date: 
+                  <input class="formInput form-control" type="text" name="date" placeholder="Enter date(s) of event." required="true"/>
+                </label>
+              
+            </div>
+
+            <div class="form-group">
+              
+                <label class="formLabel"> Time: 
+                  <input class="formInput form-control" type="text" name="time" placeholder="Enter timeframe." required="true"/>
+                </label>
+              
+            </div>
+
+                <div class="form-group">
+                  
+                    <label class="formLabel">Address of Business: 
+                      <input class="formInput form-control" type="text" name="businessAddr" placeholder="Enter the address." required="true"/>
+                    </label>
+                  
+                </div>
+
+                <div class="form-group">
+                  
+                    <label class="formLabel">Your Email: 
+                      <input class="formInput form-control" type="email" name="email" placeholder="Enter your email" required="true"/>
+                    </label>
+                  
+                </div>
+
+                <div class=" form-group">
+                  
+                    <label class="formLabel">Message: 
+                      <textarea class="formInput form-control" name="message" placeholder="Please give details of number of people." 
+                      rows="10" cols="60" required="true"></textarea>
+                    </label>
+                  
+                </div>
+
+                <div class="form-group">
+                    <p>
+                      <button class="btn btn-warning" id="contactBtn" type="submit">Submit</button>
+                    </p>
+                  </form>
+                </div>
+
+            </div> 
+    
+        </div>   
+
+      </section>
+
+      <section>
+      
+      </section>
               
       <section>
 
@@ -997,7 +1099,7 @@
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-
+<script src="js/topPage.js"></script>
 
   </body>
 </html>
