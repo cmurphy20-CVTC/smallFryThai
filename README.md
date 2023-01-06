@@ -8,7 +8,7 @@ in my area is Dhimiters, so I used there site for ideas how to display things li
 
 Technologies Used
 
-For a responsive modern looking website I used Bootstrap so that the content will resize for various screens. The pages were created utilizing HTML and the content was formatted with CSS. I also used jQuery for some custom animations.
+For a responsive modern looking website I used Bootstrap so that the content will resize for various screens. The pages were created utilizing HTML and the content was formatted with CSS. I also used jQuery for some custom animations. This site is hosted on Netlify.
 
 Features
 
@@ -22,3 +22,4 @@ for the Dhimiters food truck. A couple examples of ideas are the sample menu on 
 for interested parties to fill out and request catering. After some research, I figured out that Netlify can handle form submimssions and even provide spam filtering.
 Netlify also has the ability to host the site. So any commits pushed to the remote repository automatically updates the hosted site.
 
+Note when visitng the site please give a few moments for the images to load, as Netlify can be a little slow. 
