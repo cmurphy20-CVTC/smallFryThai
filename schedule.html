@@ -907,7 +907,37 @@
         
         <div class="contactSection">
 
-          <div class="row">
+          <h2 id="publicCaterH2">Application for Catering</h2>
+
+          <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <p>
+              <label class="formLabel">
+                Name: <input class="formInput" type="text" name="name"/>
+              </label>
+            </p>
+            
+            <p>
+              <label class="formLabel">
+                Email: <input class="formInput" type="email" name="email" />
+              </label>
+            </p>
+            <p>
+              <label id="formMessage" class="formLabel">
+                Message: <textarea class="formInput" name="message"></textarea>
+              </label>
+            </p>
+            <div id="captcha">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+            
+            <p>
+              <button  id="contactBtn" type="submit">Send</button>
+            </p>
+          </form>
+
+
+          <!-- Orignal custom form does not work -->
+          <!-- <div class="row">
             <div class="col-lg-12 cFormLeft">
               <div class=" ">
                 <h2 id="publicCaterH2">Application for Catering</h2>
@@ -951,7 +981,7 @@
 
             </div> 
     
-          </div> 
+          </div>  -->
 
         </div>
 
