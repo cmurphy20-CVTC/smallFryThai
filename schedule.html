@@ -907,54 +907,28 @@
         
         <div class="contactSection">
 
-          <div class="row">
-            <div class="col-lg-12 cFormLeft">
-              <div class=" ">
-                <h2 id="publicCaterH2">Application for Catering</h2>
-                <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
 
-                  <div class="form-group">
-                    <label class="formLabel">Your Name: 
-                      <input class="formInput form-control" type="text" name="name" 
-                      placeholder="Enter your name." required="true"/>
-                    </label>
-                  </div>
-              </div> 
-
-                <div class="form-group">
-                  
-                    <label class="formLabel">Your Email: 
-                      <input class="formInput form-control" type="email" name="email" placeholder="Enter your email" required="true"/>
-                    </label>
-                  
-                </div>
-
-                <div class=" form-group">
-                  
-                    <label id="formMessage" class="formLabel">Message: 
-                      <textarea class="formInput form-control" name="message" placeholder="Please give details of the events." 
-                      rows="10" cols="100" required="true"></textarea>
-                    </label>
-                  
-                </div>
-
-                <div class="captchaDiv">
-                  <div id="captcha" data-netlify-recaptcha="true"></div>
-
-                  <input type="hidden" name="contact" value="contact"/>
-
-                </div>
-
-                <div class="form-group">
-                    <p>
-                      <button class="btn btn-warning" id="contactBtn" type="submit">Submit</button>
-                    </p>
-                  </form>
-                </div>
-
-            </div> 
-    
-        </div>   
+        </div>
 
       </section>
               
