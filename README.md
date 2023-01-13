@@ -1,5 +1,4 @@
 # smallFryThai
-Welcome to Small Fry Thai! A website for a local food truck giving a modern twist to traditional Thai dishes. Their dishes pack a ton of flavor! 
 
 I created this site as a challenge to myself, there are a few restaurants in my area that do not have their own websites. The inspiration for the site came from 
 my love of Thai food and it grew from there. I used a name generator to come up with the name Small Fry Thai, also I am a fan of puns. With the name I thought that the
