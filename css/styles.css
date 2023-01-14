@@ -450,7 +450,7 @@ button > a:hover {
   color: #f4fefd;
   font-size: 2em;
   padding: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 #aboutImg {
