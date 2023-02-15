@@ -22,3 +22,5 @@ for interested parties to fill out and request catering. After some research, I 
 Netlify also has the ability to host the site. So any commits pushed to the remote repository automatically updates the hosted site.
 
 Note when visitng the site please give a few moments for the images to load, as Netlify can be a little slow. 
+
+Link to Live Demo - https://youtu.be/sgT7n9jn0YM
