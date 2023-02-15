@@ -276,13 +276,14 @@ button > a:hover {
 }
 
 #scheduleTitle {
-  font-size: 5em;
+  font-size: 50px;
   margin-bottom: 3%;
 }
 
 #scheduleYear {
-  font-size: 2em;
+  font-size: 40px;
   margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 #month {
@@ -293,9 +294,15 @@ button > a:hover {
 #monthTitle {
   font-size: .75em;
 }
+
 #firstHalf {
   margin-right: 10%;
 }
+#secondHalf {
+  margin-right: 10%;
+}
+
+
 
 .col-md-2 {
   
@@ -425,6 +432,7 @@ button > a:hover {
 #captcha {
   display: inline-block;
   padding: 5%;
+  width: 75%;
 }
 
 /* About Us */
